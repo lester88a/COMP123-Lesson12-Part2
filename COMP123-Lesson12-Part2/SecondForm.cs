@@ -26,5 +26,22 @@ namespace COMP123_Lesson12_Part2
             //this.Owner.Show();
             this.NextForm.Owner.Show();
         }
+
+        private void SecondForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void ColorButton_Click(object sender, EventArgs e)
+        {
+            colorDialog1.ShowDialog();
+            ActiveForm.BackColor = colorDialog1.Color;
+            
+        }
+
+        private void FolderButton_Click(object sender, EventArgs e)
+        {
+            folderBrowserDialog1.ShowDialog();
+        }
     }
 }
