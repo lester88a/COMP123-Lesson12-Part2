@@ -75,7 +75,7 @@
             "New York",
             "Paris",
             "Toronto"});
-            this.comboBox1.Location = new System.Drawing.Point(138, 31);
+            this.comboBox1.Location = new System.Drawing.Point(151, 31);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 28);
             this.comboBox1.Sorted = true;
